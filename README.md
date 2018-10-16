@@ -1,24 +1,14 @@
-# README
+## Dependencies
+* Used pg gem as described in the requirement.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+* Take clone of the repo:`git clone https://github.com/railstesh/flight-backend.git`
 
-* Ruby version
+* Then `bundle install`
 
-* System dependencies
+* For database do `rails db:create` and `rails db:migrate`
 
-* Configuration
+* For scraping `rails flights:import_arrivals` and `rails flights:import_departures`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Run `rails s`
